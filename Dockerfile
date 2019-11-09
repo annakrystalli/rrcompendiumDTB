@@ -4,7 +4,7 @@ FROM rocker/verse:3.6.0
 # required
 MAINTAINER Your Name <your_email@somewhere.com>
 
-COPY . /rrcompendium-full
+COPY . /rrcompendiumDTB
 
 # go into the repo directory
 RUN . /etc/environment \
@@ -13,7 +13,7 @@ RUN . /etc/environment \
   && sudo apt-get update \
   && sudo apt-get install libudunits2-dev -y \
   # build this compendium package
-  && R -e "devtools::install('/rrcompendium-full', dep=TRUE)" \
+  && R -e "devtools::install('/rrcompendiumDTB', dep=TRUE)" \
   # render the manuscript into a docx, you'll need to edit this if you've
   # customised the location and name of your main Rmd file
-  && R -e "rmarkdown::render('/rrcompendium-full/analysis/paper/paper.Rmd')"
+  && R -e "rmarkdown::render('/rrcompendiumDTB/analysis/paper/paper.Rmd')"

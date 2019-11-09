@@ -1,4 +1,4 @@
-Package: rrcompendium
+Package: rrcompendiumDTB
 Title: Partial Reproduction of Boettiger Ecology Letters 2018;21:1255–1267 with rrtools
 Version: 0.0.0.9000
 Authors@R:
