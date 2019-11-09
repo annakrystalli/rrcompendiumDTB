@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rrcompendium
+# rrcompendiumDTB
 
 <!-- badges: start -->
 
@@ -36,10 +36,15 @@ Please cite this compendium as:
 ### How to download or install
 
 You can download the compendium as a zip from from this URL:
-<https://github.com/annakrystalli/rrcompendium/archive/master.zip>
+<https://github.com/annakrystalli/rrcompendiumDTB/archive/master.zip>
 
 Or you can install this compendium as an R package, rrcompendium, from
 GitHub with:
+
+``` r
+# install.packages("devtools")
+remotes::install_github("annakrystalli/rrcompendiumDTB")
+```
 
 ### Licenses
 

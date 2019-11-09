@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# rrcompendium
+# rrcompendiumDTB
 
 <!-- badges: start -->
 [![Travis-CI Build Status](https://travis-ci.org/annakrystalli/rrcompendiumDTB.svg?branch=master)](https://travis-ci.org/annakrystalli/rrcompendiumDTB)
@@ -36,9 +36,15 @@ Please cite this compendium as:
 
 ### How to download or install
 
-You can download the compendium as a zip from from this URL: <https://github.com/annakrystalli/rrcompendium/archive/master.zip>
+You can download the compendium as a zip from from this URL: <https://github.com/annakrystalli/rrcompendiumDTB/archive/master.zip>
 
 Or you can install this compendium as an R package, rrcompendium, from GitHub with:
+
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+remotes::install_github("annakrystalli/rrcompendiumDTB")
+```
 
 
 ### Licenses
