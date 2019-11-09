@@ -14,6 +14,11 @@ knitr::opts_chunk$set(
 
 # rrcompendium
 
+<!-- badges: start -->
+[![Travis-CI Build Status](https://travis-ci.org/annakrystalli/rrcompendiumDTB.svg?branch=master)](https://travis-ci.org/annakrystalli/rrcompendiumDTB)
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/rrcompendiumDTB/master?urlpath=rstudio)
+<!-- badges: end -->
+
 This repository contains the data and code for our reproduction paper:
 
 > Krystalli, A, (2018). _Partial Reproduction of Boettiger Ecology Letters 2018;21:1255–1267 with rrtools_.  <https://doi.org/{DOI-to-paper}>
