@@ -15,8 +15,8 @@ ByteCompile: true
 Encoding: UTF-8
 LazyData: true
 Date: 2019-09-17
-URL: https://github.com/annakrystalli/rrcompendium
-BugReports: https://github.com/annakrystalli/rrcompendium/issues
+URL: https://github.com/annakrystalli/rrcompendiumDTB
+BugReports: https://github.com/annakrystalli/rrcompendiumDTB/issues
 Imports: 
     bookdown,
     dplyr,

@@ -2,7 +2,7 @@
 FROM rocker/verse:3.6.0
 
 # required
-MAINTAINER Your Name <your_email@somewhere.com>
+MAINTAINER Anna Krystalli <annakrystallil@googlemail.com>
 
 COPY . /rrcompendiumDTB
 
