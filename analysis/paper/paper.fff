@@ -1,0 +1,12 @@
+\begin{figure}
+\centering
+\includegraphics{paper_files/figure-latex/figure1-1.pdf}
+\caption{Population dynamics from a Gillespie simulation of the Levins
+model with large (N=1000, panel A) and small (N=100, panel B) number of
+sites (blue) show relatively weaker effects of demographic noise in the
+bigger system. Models are otherwise identical, with e = 0.2 and c = 1
+(code in appendix A). Theoretical predictions for mean and plus/minus
+one standard deviation shown in horizontal re dashed lines.}
+\end{figure}
+\efloatseparator
+ 
