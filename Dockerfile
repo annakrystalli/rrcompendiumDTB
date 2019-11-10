@@ -6,6 +6,8 @@ MAINTAINER Anna Krystalli <annakrystallil@googlemail.com>
 
 COPY . /rrcompendiumDTB
 
+ADD /rrcompendiumDTB /home/rstudio
+
 # go into the repo directory
 RUN . /etc/environment \
   # Install linux depedendencies here
