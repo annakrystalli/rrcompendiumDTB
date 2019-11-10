@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Travis-CI Build
-Status](https://travis-ci.org/annakrystalli/rrcompendiumDTB.svg?branch=master)](https://travis-ci.org/annakrystalli/rrcompendiumDTB)
+Status](https://travis-ci.com/annakrystalli/rrcompendiumDTB.svg?branch=master)](https://travis-ci.com/annakrystalli/rrcompendiumDTB)
 [![Launch Rstudio
 Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/rrcompendiumDTB/master?urlpath=rstudio)
 <!-- badges: end -->
@@ -20,7 +20,7 @@ This repository contains the data and code for our reproduction paper:
 Our reproduction pre-print is online here:
 
 > Krystalli, A, (2018). *Partial Reproduction of Boettiger Ecology
-> Letters 2018;21:1255–1267 with rrtools*, Accessed 09 Nov 2019. Online
+> Letters 2018;21:1255–1267 with rrtools*, Accessed 10 Nov 2019. Online
 > at
 > [https://doi.org/{DOI-to-compendium}](https://doi.org/%7BDOI-to-compendium%7D)
 
@@ -30,7 +30,7 @@ Please cite this compendium as:
 
 > Krystalli, A, (2019). *Compendium of R code and data for ‘Partial
 > Reproduction of Boettiger Ecology Letters 2018;21:1255–1267 with
-> rrtools’*. Accessed 09 Nov 2019. Online at
+> rrtools’*. Accessed 10 Nov 2019. Online at
 > [https://doi.org/{DOI-to-compendium}](https://doi.org/%7BDOI-to-compendium%7D)
 
 ### How to download or install
