@@ -5,8 +5,7 @@ FROM rocker/verse:3.6.0
 MAINTAINER Anna Krystalli <annakrystallil@googlemail.com>
 
 COPY . /rrcompendiumDTB
-
-ADD /rrcompendiumDTB /home/rstudio
+COPY . /home/rstudio/rrcompendiumDTB
 
 # go into the repo directory
 RUN . /etc/environment \
