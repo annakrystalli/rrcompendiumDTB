@@ -38,7 +38,9 @@ Please cite this compendium as:
 
 You can download the compendium as a zip from from this URL: <https://github.com/annakrystalli/rrcompendiumDTB/archive/master.zip>
 
-Or you can install this compendium as an R package, rrcompendium, from GitHub with:
+You can install compendium functionality as an R package, `rrcompendiumDTB` by running `devtools::install()` in the root directory of the compendium.
+
+Or from GitHub with:
 
 
 ```{r gh-installation, eval = FALSE}
@@ -46,6 +48,16 @@ Or you can install this compendium as an R package, rrcompendium, from GitHub wi
 remotes::install_github("annakrystalli/rrcompendiumDTB")
 ```
 
+
+### Reproducing the paper
+
+The paper can be found at `analysis/paper/paper.Rmd`. Open the file and click on **knit** to reproduce the paper. Or run:
+
+```{r cmp-knit, eval = FALSE}
+rmarkdown::render(file.path("analysis", "paper", "paper.Rmd"))
+```
+
+You can perform this on your local machine or in the cloud: [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/rrcompendiumDTB/master?urlpath=rstudio)
 
 ### Licenses
 

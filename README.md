@@ -20,7 +20,7 @@ This repository contains the data and code for our reproduction paper:
 Our reproduction pre-print is online here:
 
 > Krystalli, A, (2018). *Partial Reproduction of Boettiger Ecology
-> Letters 2018;21:1255–1267 with rrtools*, Accessed 10 Nov 2019. Online
+> Letters 2018;21:1255–1267 with rrtools*, Accessed 24 Feb 2020. Online
 > at
 > [https://doi.org/{DOI-to-compendium}](https://doi.org/%7BDOI-to-compendium%7D)
 
@@ -28,9 +28,9 @@ Our reproduction pre-print is online here:
 
 Please cite this compendium as:
 
-> Krystalli, A, (2019). *Compendium of R code and data for ‘Partial
+> Krystalli, A, (2020). *Compendium of R code and data for ‘Partial
 > Reproduction of Boettiger Ecology Letters 2018;21:1255–1267 with
-> rrtools’*. Accessed 10 Nov 2019. Online at
+> rrtools’*. Accessed 24 Feb 2020. Online at
 > [https://doi.org/{DOI-to-compendium}](https://doi.org/%7BDOI-to-compendium%7D)
 
 ### How to download or install
@@ -38,13 +38,29 @@ Please cite this compendium as:
 You can download the compendium as a zip from from this URL:
 <https://github.com/annakrystalli/rrcompendiumDTB/archive/master.zip>
 
-Or you can install this compendium as an R package, rrcompendium, from
-GitHub with:
+You can install compendium functionality as an R package,
+`rrcompendiumDTB` by running `devtools::install()` in the root directory
+of the compendium.
+
+Or from GitHub with:
 
 ``` r
 # install.packages("devtools")
 remotes::install_github("annakrystalli/rrcompendiumDTB")
 ```
+
+### Reproducing the paper
+
+The paper can be found at `analysis/paper/paper.Rmd`. Open the file and
+click on **knit** to reproduce the paper. Or run:
+
+``` r
+rmarkdown::render(file.path("analysis", "paper", "paper.Rmd"))
+```
+
+You can perform this on your local machine or in the cloud: [![Launch
+Rstudio
+Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/rrcompendiumDTB/master?urlpath=rstudio)
 
 ### Licenses
 
