@@ -8,8 +8,6 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\bibliographystyle{elsarticle-harv}
-\biboptions{sort&compress} % For natbib
 \usepackage{graphicx}
 \usepackage{booktabs} % book-quality tables
 %%%%%%%%%%%%%%%% end my additions to header
@@ -33,6 +31,7 @@
 \fi
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\bibliographystyle{elsarticle-harv}
 \usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
 % that they will get their normal width if they fit onto the page, but
@@ -63,6 +62,8 @@
 \setcounter{secnumdepth}{0}
 % Pandoc toggle for numbering sections (defaults to be off)
 \setcounter{secnumdepth}{0}
+
+
 % Pandoc header
 
 \usepackage[nomarkers]{endfloat}
@@ -77,10 +78,9 @@
 reveals information}
     \author[a]{Carl Boettiger}
    \ead{cboettig@berkeley.edu} 
-  
       \address[a]{Dept of Environmental Science, Policy, and Management, University of
 California Berkeley, Berkeley CA 94720-3114, USA}
-  
+    
   \begin{abstract}
   \hypertarget{abstract}{%
   \section{Abstract}\label{abstract}}
@@ -382,6 +382,7 @@ biology.'' \emph{American Scientist} 54 (4): 421--31.
 environmental heterogeneity for biological control.'' \emph{Bulletin of
 the Entomological Society of America} 15 (3). Entomological Society of
 America: 237--40.
+
 
 \end{document}
 
